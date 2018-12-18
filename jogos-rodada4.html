@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Jogos Internos UFBA</title>
+    
+    <link rel="shortcut icon" href="imagens/logo.png">
+
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script type="text/javascript" src="javascript/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="javascript/funcoes.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("div#slides ul").cycle({
+                fx: 'none',
+                speed: 2000,
+                timeout: 4000,
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="slides">
+        <ul>
+            <li>
+                <img src="imagens/cabesse.jpg">
+            </li>
+            <li>
+                <img src="imagens/cabesse.jpg">
+            </li>
+        </ul>
+    </div>
+    <div id="interface">
+        <header id="cabecalho">
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html"> Inicio</a></li>
+                    <li><a href="classificacao.html"> Classificação</a></li>
+                    <li><a href="quartas.html">Jogos</a></li>
+                    <li><a href="times.html">Times</a></li>
+                    <li><a href="artilheiros.html"> Artilheiros</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="corpo1">
+            <article id="principal">
+                <h1><u>Jogos</u></h1>
+                <table style="float: right;">
+                    <tr>
+                        <td style="float: right;">
+                            <div class="dropdown">
+                                <button class="dropbtn">Eliminatórias</button>
+                                <div class="dropdown-content">
+                                    <a href="oitavas.html">Oitavas</a>
+                                    <a href="quartas.html">Quartas</a>
+                                    <a href="semifinais.html">Semifinais</a>
+                                    <a href="3lugar.html">3º lugar</a>
+                                    <a href="final.html">Final</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="float: right;">
+                            <div class="dropdown">
+                                <button class="dropbtn">Rodadas</button>
+                                <div class="dropdown-content">
+                                    <a href="jogos-rodada1.html">Rodada 1</a>
+                                    <a href="jogos-rodada2.html">Rodada 2</a>
+                                    <a href="jogos-rodada3.html">Rodada 3</a>
+                                    <a href="jogos-rodada4.html">Rodada 4</a>
+                                    <a href="jogos-rodada5.html">Rodada 5</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div id="corpo3">
+                    <h2>4ª rodada</h2>
+                    <table class="table-jogos">
+                        <caption>Sábado, 03/11/2018</caption>
+                        <thead>
+                             <tr>
+                                <th class="jhorario1st"><b>Horário</b></th>
+                                <th class="jequipe1st"><b>Equipe</b></th>
+                                <th class="jplacar1st" colspan="3" class=""><b>Placar</b></th>
+                                <th class="jequipe1st"><b>Equipe</b></th>
+                                <th class="jsumula1st"><b>Súmula</b></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="jhorario">11:00</td>
+                                <td class="jequipe">Eng. Mecânica</td>
+                                <td class="jplacar">2</td>
+                                <td class="jplacar">X</td>
+                                <td class="jplacar">1</td>
+                                <td class="jequipe">Química</td>
+                                <td class="jsumula">
+                                    <a href="https://drive.google.com/file/d/1HT7fZbyBscQCkSvzBDEEUEDDO4X-r7g-/view?usp=sharing" target="_blank">Consultar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="jhorario">12:15</td>
+                                <td class="jequipe">Economia</td>
+                                <td class="jplacar">0</td>
+                                <td class="jplacar">X</td>
+                                <td class="jplacar">3</td>
+                                <td class="jequipe">Música</td>
+                                <td class="jsumula">
+                                    <a href="https://drive.google.com/file/d/11v72GHYRjLrlvVmJzRInqP8g1-eUyXLf/view?usp=sharing" target="_blank">Consultar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="jhorario">13:30</td>
+                                <td class="jequipe">Arquitetura</td>
+                                <td class="jplacar">0</td>
+                                <td class="jplacar">X</td>
+                                <td class="jplacar">0</td>
+                                <td class="jequipe">Eng. Civil</td>
+                                <td class="jsumula">
+                                    <a href="https://drive.google.com/file/d/1A30ZhMrtl_Ia1m6e14OSJVDT6ZT0F0tP/view?usp=sharing" target="_blank">Consultar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="jhorario">14:50</td>
+                                <td class="jequipe">Eng. Elétrica</td>
+                                <td class="jplacar">4</td>
+                                <td class="jplacar">X</td>
+                                <td class="jplacar">2</td>
+                                <td class="jequipe">Dança</td>
+                                <td>
+                                    <a href="https://drive.google.com/file/d/1g5y3Lpbsh81TEencGgrZw7WlicuGv6O5/view?usp=sharing" target="_blank">Consultar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="jhorario">16:00</td>
+                                <td class="jequipe">Geografia</td>
+                                <td class="jplacar">1</td>
+                                <td class="jplacar">X</td>
+                                <td class="jplacar">1</td>
+                                <td class="jequipe">Educação Física II</td>
+                                <td class="jsumula">
+                                    <a href="https://drive.google.com/file/d/1nXDVEzfgtNy4Fam3BrvTlHOGtvIAtXQe/view?usp=sharing" target="_blank">Consultar</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="table-jogos">
+                        <br><caption>Domingo, 04/11/2018</caption>
+                        <thead>
+                            <tr>
+                                <th class="jhorario1st"><b>Horário</b></th>
+                                <th class="jequipe1st"><b>Equipe</b></th>
+                                <th class="jplacar1st" colspan="3" class=""><b>Placar</b></th>
+                                <th class="jequipe1st"><b>Equipe</b></th>
+                                <th class="jsumula1st"><b>Súmula</b></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="jhorario">12:15</td>
+                                <td class="jequipe"d>Administração</td>
+                                <td class="jplacar">1</td>
+                                <td class="jplacar">X</td>
+                                <td class="jplacar">2</td>
+                                <td class="jequipe">Educação Física I</td>
+                                <td class="jsumula">
+                                    <a href="https://drive.google.com/file/d/1aMToaJf5mJu0UbXM-eu0z8W36UCVEzhf/view?usp=sharing" target="_blank">Consultar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="jhorario">13:30</td>
+                                <td class="jequipe">Veterinária I</td>
+                                <td class="jplacar">1</td>
+                                <td class="jplacar">X</td>
+                                <td class="jplacar">1</td>
+                                <td class="jequipe">Veterinária II</td>
+                                <td class="jsumula">
+                                    <a href="https://drive.google.com/file/d/12QXlIDcYE4oUjm1YKTSiVomVsf6sxHp5/view?usp=sharing" target="_blank">Consultar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="jhorario">14:50</td>
+                                <td class="jequipe">Arquivologia</td>
+                                <td class="jplacar">3</td>
+                                <td class="jplacar">X</td>
+                                <td class="jplacar">1</td>
+                                <td class="jequipe">Artes</td>
+                                <td class="jsumula">
+                                    <a href="https://drive.google.com/file/d/1bRY43lmfjXwiWkVdcR98Hub1iN7RSGNd/view?usp=sharing" target="_blank">Consultar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="jhorario">16:00</td>
+                                <td class="jequipe">Eng. Produção</td>
+                                <td class="jplacar">1</td>
+                                <td class="jplacar">X</td>
+                                <td class="jplacar">1</td>
+                                <td class="jequipe">Biblioteconomia</td>
+                                <td class="jsumula">
+                                    <a href="https://drive.google.com/file/d/1BkktHi5ahphVnwQ14FkxWc6_9kw39UAe/view?usp=sharing" target="_blank">Consultar</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,295 @@
+TIMES
+
+Administração - Meninos do Vale
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+
+Arquitetura - Afroufba
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+
+Arquivologia - Residência FC
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+
+Artes - Boleiros
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+
+Biblioteconomia - Seleção Brasileira
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+
+Dança - Boca09
+
+    1 Guilherme Hein
+    2 ViníciusFreire
+    3 Iuri Lessa
+    4 Gabriel Brito
+    5 Caio Guedes
+    6 Bruno Assis
+    7 Gustavo Ross
+    8 Bryant Machado
+    9 Caio Ribeiro
+    10 Lucas Aznar
+    11 Luã Souza
+    13 Caio Leiro
+    16 Edson Barreto
+    17 Daniel David
+    18 Rodrigo Pereira
+    20 Pedro Argollo
+    22 Jonas Lins
+    23 Luã Carvalho
+    27 Ramon Nascimento
+    28 Bernardo
+    69 Caio César Santos
+    79 Raimundo Netto
+    80 Lucas Matheus
+    99 Arthur Lima Rabelo
+
+Economia
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+	
+
+Ed. Física 1 - Tigres
+
+	1 Victor Santos Cajaíba Rodrigues
+	3 Iure Fernandes Pereira
+	4 Leonardo Sales
+	6 Lucas Maurício
+	7 Luís Simões
+	8 Fábio da Silva
+	10 Ryan Carvalho
+	13 Fernando Henrique Franco
+	16 João Marcos Barretto
+	17 Vagner Santos Cajaíba Rodrigues
+	19 Francisco Miguel
+	20 Danilo Leal Sande
+	27 Leandro de Souza Dias
+	29 Valde Mário dos Santos
+	33 Moisés de O. Ferreira
+	99 Thiago de Jesus
+
+Ed. Física 2 - Horríver Plate
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+	
+
+Eng. Civil - Pedreira
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+	
+
+Eng. Elétrica - Galinhas D'angola
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	22 Lucas Abreu
+	31 Otto Moutinho
+	
+
+Eng. Mecânica - Laranja Mecânica
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+	
+
+Eng. Produção - Nachapacoense
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+	
+
+Geografia - Bayern de Favela
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+	
+
+Música
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+	
+
+Química - Barca
+
+    1 Alan Bittencourt
+    2 Raphael Dantas
+    3 Leonardo Brito
+    4 Lucas Ribeiro
+    5 Marcus Vinícius
+    6 Renato Souza
+    8 Nilton Cancio
+    9 Rodrigo Rodrigues
+    10 Raineldes Cruz
+    11 Sérgio Bomfim
+    12 Luiz Alberto
+    13 Pablo Sena
+    14 Everton Barros
+    15 Moacyr Rodrigues
+    16 Paulo Roberto Almeida
+    17 José Henrique
+    18 Felipe Cova
+    21 Maurício Brandão
+    22 Osvaldo Neto
+    26 Antonio Henrique Sales
+    53 Rafael Simões
+    57 Cléber Bastos
+
+Veterinária 1 - Trapalhões
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+	
+
+Veterinária 2 - Armadilha
+
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11	
+	
+

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Jogos Internos UFBA</title>
+    
+    <link rel="shortcut icon" href="imagens/logo.png">
+
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script type="text/javascript" src="javascript/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="javascript/funcoes.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("div#slides ul").cycle({
+                fx: 'none',
+                speed: 2000,
+                timeout: 4000,
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="slides">
+        <ul>
+            <li>
+                <img src="imagens/cabesse.jpg">
+            </li>
+            <li>
+                <img src="imagens/cabesse.jpg">
+            </li>
+        </ul>
+    </div>
+    
+    <div id="interface">
+        <header id="cabecalho">
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html"> Inicio</a></li>
+                    <li><a href="classificacao.html"> Classificação</a></li>
+                    <li><a href="quartas.html">Jogos</a></li>
+                    <li><a href="times.html">Times</a></li>
+                    <li><a href="artilheiros.html"> Artilheiros</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="corpo1">
+            <article id="principal">
+                <h1><u>Times</u></h1><br>
+
+                <table class="tdstimes">
+                    <tr>
+                        <td class="time">  
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/vale.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Administração</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Meninos do Vale</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/semescudo.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Arquitetura</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Afroufba</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/semescudo.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Arquivologia</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Residência FC</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" id="imagemessa" src="imagens/escudos/semescudo.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Artes</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Boleiros</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/semescudo.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Biblioteconomia</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Seleção Brasileira</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/boca.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Dança</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Boca09</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    <tr>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/economia.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Economia</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Iraque</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/tigres.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Ed. Física I</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Tigres</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/horriver.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Ed. Física II</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Horríver Plate</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/pedreira.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Eng. Civil</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Pedreira</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/semescudo.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Eng. Elétrica</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Galinhas D'Angola</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/mec.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Eng. Mecânica</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Laranja Mecânica</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="time">
+                            
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/nachapacoense.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Eng. Produção</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Nachapacoense</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/bayern.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Geografia</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Bayern de Favela</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/semescudo.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Música</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/barca.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Química</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Barca</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" src="imagens/escudos/trapalhoes.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Veterinária I</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Trapalhões</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="time">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img class="selectimg" class="selectimg" src="imagens/escudos/armadilha.jpeg" style="width: 80px; height: 80px;">
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td class="nometime">Veterinária II</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="nometime">Armadilha</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                    
+            </article>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(".selectimg").bind('click',function(){
+
+            $(this).animate({height:"200px",width:"200px"});
+        });
+
+        $(".selectimg").bind('mouseout',function(){
+               $(this).animate({height:"80px",width:"80px"});
+        });
+    </script>
+
+</body>
+
+</html>

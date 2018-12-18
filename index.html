@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Jogos Internos UFBA</title>
+    
+    <link rel="shortcut icon" href="imagens/logo.png">
+
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script type="text/javascript" src="javascript/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="javascript/funcoes.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("div#slides ul").cycle({
+                fx: 'none',
+                speed: 2000,
+                timeout: 4000,
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="slides">
+        <ul>
+            <li>
+                <img src="imagens/cabesse.jpg">
+            </li>
+            <li>
+                <img src="imagens/cabesse.jpg">
+            </li>
+        </ul>
+    </div>
+    <div id="interface-index">
+        <header id="cabecalho">
+            <nav id="menu">
+                <ul>
+                	<li><a href="index.html"> Inicio</a></li>
+                    <li><a href="classificacao.html"> Classificação</a></li>
+                    <li><a href="quartas.html">Jogos</a></li>
+                    <li><a href="times.html">Times</a></li>
+                    <li><a href="artilheiros.html"> Artilheiros</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="corpo-menu1">
+            <article id="principal">
+                <figure class="estrutura">
+                    <a href="classificacao.html">
+                        <img src="imagens/classificacao.jpg" width="365px" height="200px">
+                    </a>
+                    <figcaption>
+                        <h1>Classificação</h1>
+                    </figcaption>
+                </figure>
+
+                <figure class="visitante">
+                    <a href="times.html">
+                        <img src="imagens/parana.jpg" width="365px" height="200px">
+                    </a>
+                    <figcaption>
+                        <h1>Times</h1>
+                    </figcaption>
+                </figure>
+
+            </article>
+        </div>
+
+        <div id="corpo-menu2">
+            <article id="principal">
+                <figure class="estrutura">
+                    <a href="jogos-rodada3.html">
+                        <img src="imagens/jogos.jpg" width="365px" height="200px">
+                    </a>
+                    <figcaption>
+                        <h1>Jogos</h1>
+                    </figcaption>
+                </figure>
+
+                <figure class="visitante">
+                    <a href="artilheiros.html">
+                        <img src="imagens/artilheiros.jpg" width="365px" height="200px">
+                    </a>
+                    <figcaption>
+                        <h1>Artilheiros</h1>
+                    </figcaption>
+                </figure>
+
+            </article>
+            
+        </div>
+
+        <div id="corpo-menu3">
+            <h3 style="text-align: center;">Sugestões? Erros?</h3>
+            <form method="POST" action="https://formspree.io/aluno214@gmail.com">
+                <input style="line-height: 24px" type="text" name="name" placeholder=" Nome"><br><br>
+                <input style="line-height: 24px" type="email" name="email" placeholder=" E-mail"><br><br>
+                <textarea rows="7" name="message" placeholder=" Mensagem"></textarea>
+                <button style="margin-left: 18px" type="submit">Enviar</button>
+            </form>
+
+        </div>
+
+        <footer id="rodape">
+        	<div class="footerCol1">
+        		<table>
+        			<tr>
+        				<td>
+        					<img class="footimg" src="imagens/icons/local.png">
+        				</td>
+        				<td>
+        					<p style="margin-left: 8px;">
+			        			<span>CEEF UFBA &nbsp;</span><br>
+			        			<span>R. Dorilândia, 105 &nbsp;</span><br>
+			        			<span>Ondina, Salvador - BA</span><br>
+			        			<span>40140-130, Brasil</span>
+			        		</p>
+        				</td>
+        			</tr>
+        		</table>
+        	</div>
+
+        	<div class="footerCol2">
+				<table>
+        			<tr>
+        				<td>
+        					<img class="footimg" src="imagens/icons/tel.png">
+        				</td>
+        				<td>
+        					<p style="margin-left: 10px;">
+								<span>Ligue:</span><br>
+								<span>71 3283-7800</span><br>
+								<span>71 3283-7803</span>
+							</p>
+						</td>
+        			</tr>
+        		</table>
+			</div>
+
+			<div  class="footerCol3">
+				<table>
+        			<tr>
+        				<td>
+        					<img class="footimg2" src="imagens/icons/email.png">
+        				</td>
+        				<td>
+							<p style="margin-left: 8px;">
+								<span>E-mail:</span><br>
+								<span>nelufba@gmail.com</span>
+							</p>
+						</td>
+        			</tr>
+        		</table>
+			</div>
+        </footer>
+    </div>
+</body>
+
+</html>
+

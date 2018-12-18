@@ -1,0 +1,453 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-image: url('../imagens/grass.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+#slides {
+    width: 900px;
+    height: 300px;
+    margin: -25px auto auto auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+#interface-index {
+    width: 900px;
+    height: 900px;
+    background-color: white;
+    margin: 20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+#interface {
+    width: 900px;
+    min-height: auto;
+    background-color: white;
+    margin: 20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+#cabecalho {
+    margin: -10px auto 0px auto;
+}
+nav#menu {
+    position: absolute;
+    top: 267px;
+}
+nav#menu ul {
+    background: url(../imagens/botao-menu.jpg) repeat-x;
+    width: 860px;
+    height: 50px;
+    list-style: none;
+}
+nav#menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav#menu ul li a {
+    text-decoration: none;
+    color: #CCC;
+    padding: 12px 35px;
+    text-align: center;
+    float: left;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+nav#menu a:hover {
+    color: #FFF;
+}
+
+/*   --   CORPO 1   --   */
+
+div#corpo1 img {
+    padding: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+    margin: 1px;
+    width: 100%;
+}
+figure.estrutura {
+    position: relative;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+figure.estrutura figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 155px;
+    left: 6px;
+    width: 350px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px;
+    transition: opacity .6s;
+}
+.estrutura h1 {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+.estrutura:hover figcaption {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .7);
+}
+.visitante {
+    position: relative;
+    margin-left: 30px;
+}
+.visitante figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 155px;
+    left: 6px;
+    width: 350px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px;
+    transition: opacity .6s;
+}
+.visitante h1 {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+.visitante:hover figcaption {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .7);
+}
+div#corpo1 {
+    margin-top:50px; 
+    padding: 8px;
+}
+div#corpo3 {
+    margin-top:10px; 
+    padding: 8px;
+}
+#principal h1{
+    text-align: center;
+}
+
+div#corpo-menu1 img {
+    padding: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+    margin: 1px;
+}
+div#corpo-menu2 img {
+    padding: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+}
+
+div#corpo-menu1 {
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    top: 350px;
+    padding: 10px;
+    margin: -1px 0px -15px 0px;
+}
+
+div#corpo-menu2 {
+    position: relative;
+    width: 430px;
+    height: 430px;
+    top: 62px;
+    left: -30px;
+    float: right;
+    padding: 10px;
+    margin: -5px;
+}
+
+div#corpo-menu3 {
+    position: relative;
+    width: 430px;
+    top: 540px;
+    left: 230px;
+}
+
+/*   --   CORPO 2   --   */
+
+div#corpo2 {
+
+}
+div#corpo2 img {
+    padding: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
+}
+
+/*   --   RODAPÉ   --   */
+
+footer#rodape {
+    position: absolute;
+    top: 1140px;
+    clear: both;
+    width: 880px;
+    height: 120px;
+    background-image: url(../imagens/fundo-rodape.jpg);
+    background-repeat: repeat-x;
+    padding: 10px;
+    color: white;
+}
+
+.f1, .f2, .f3 {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 12px;
+    width: 30%;
+    display: inline-table;
+}
+
+.table{
+    border:1px solid #000;
+    border-spacing: 0px;
+    min-width: 100%;
+    width: 100%;
+}
+.table-artilheiros{
+    border:1px solid #000;
+    border-spacing: 0px;
+    min-width: 100%;
+    width: 100%;
+}
+.table-artilheiros td, table th{
+    border:1px solid #000;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+.table-jogos{
+    border:1px solid #000;
+    border-spacing: 0px;
+    min-width: 100%;
+    width: 100%;
+}
+.table-jogos td, table th{
+    border:1px solid #000;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+.table td, table th{
+    border:1px solid #000;
+    margin: 0;
+
+}
+.table th{
+    font-weight: bold;
+    margin: 0;
+}
+.table td{
+    background-color: #358e3c; //verde;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+}
+.table td.ultimos{
+    background-color: #ff2929; //vermelho;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-artilheiros td.primeiros{
+    background-color: #358e3c; //verde;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*   --   DROPDOWN   --   */
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 115px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*   --   TABELA JOGOS   --   */
+
+.jhorario1st {
+    width: 10%;
+    background-color: #adadad;
+}
+.jequipe1st {
+    width: 30%;
+    background-color: #adadad;
+}
+.jplacar1st {
+    width: 5%;
+    background-color: #adadad;
+}
+.jequipe1st {
+    width: 30%;
+    background-color: #adadad;
+}
+.jsumula1st {
+    width: 15%;
+    background-color: #adadad;
+}
+
+.jhorario {
+    width: 10%;
+}
+.jequipe {
+    width: 30%;
+}
+.jplacar {
+    width: 5%;
+}
+.jequipe {
+    width: 30%;
+}
+.jsumula{
+    width: 15%;
+}
+
+/* RODAPÉ */
+
+.footerCol1 {
+    left: 40px;
+    width: 250px;
+    position: absolute;
+    pointer-events: none;
+    top: 10px;
+}
+.footerCol2 {
+    left: 360px;
+    width: 250px;
+    position: absolute;
+    pointer-events: none;
+    top: 15px;
+}
+.footerCol3 {
+    left: 650px;
+    width: 100px;
+    position: absolute;
+    pointer-events: none;
+    top: 25px;
+}
+
+footer img {
+    width: 70px;
+    height: 70px;
+}
+
+span {
+    font-size: 15px;
+}
+
+.tdstimes {
+    border-spacing: 0px;
+    min-width: 100%;
+    width: 100%;
+}
+.table-artilheiros td, table th{
+    border:1px solid #000;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.nometime {
+     font-size: 24px;
+}
+
+.time {
+    width: 33%;
+}
+
+.footimg {
+    width: 50px;
+    height: 50px;
+}
+
+.footimg2 {
+    width: 60px;
+    height: 60px;
+}
+
+/* SUGESTOES */
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.buttonforms{
+    margin-left: .5em;
+    width: 80px;
+    height: 24px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-left: 160px;
+}

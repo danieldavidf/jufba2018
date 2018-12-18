@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Jogos Internos UFBA</title>
+    
+    <link rel="shortcut icon" href="imagens/logo.png">
+
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script type="text/javascript" src="javascript/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="javascript/funcoes.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("div#slides ul").cycle({
+                fx: 'none',
+                speed: 2000,
+                timeout: 4000,
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="slides">
+        <ul>
+            <li>
+                <img src="imagens/cabesse.jpg">
+            </li>
+            <li>
+                <img src="imagens/cabesse.jpg">
+            </li>
+        </ul>
+    </div>
+    <div id="interface">
+        <header id="cabecalho">
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html"> Inicio</a></li>
+                    <li><a href="classificacao.html"> Classificação</a></li>
+                    <li><a href="quartas.html">Jogos</a></li>
+                    <li><a href="times.html">Times</a></li>
+                    <li><a href="artilheiros.html"> Artilheiros</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="corpo1">
+            <article id="principal">
+                <table>
+                    <tr>
+                        <td style="width: 300px">
+                            <h1> </h1>
+                        </td>
+                        <td style="width: 300px">
+                            <h1><u>Classificação Geral</u></h1>
+                        </td>
+                        <td style="width: 300px; text-align: right;">
+                            <h6>Atualizado em 11/11/2018</h6>
+                        </td>
+                    </tr>
+                </table>
+                <table class="table">
+                    
+                    <thead>
+                        <tr>
+                            <th>Ps.</th>
+                            <th>EQUIPE</th>
+                            <th>Pts.</th>
+                            <th>J</th>
+                            <th>V</th>
+                            <th>E</th>
+                            <th>D</th>
+                            <th>GP</th>
+                            <th>GC</th>
+                            <th>SG</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1º</td>
+                            <td>Veterinária 1</td>
+                            <td>11</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>18</td>
+                            <td>3</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>2º</td>
+                            <td>Eng. Mecânica</td>
+                            <td>11</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>14</td>
+                            <td>3</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>3º</td>
+                            <td>Veterinária 2</td>
+                            <td>11</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>14</td>
+                            <td>3</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>4º</td>
+                            <td>Ed. Física 2</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>13</td>
+                            <td>4</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>5º</td>
+                            <td>Artes</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>12</td>
+                            <td>5</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>6º</td>
+                            <td>Química</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>9</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>7º</td>
+                            <td>Geografia</td>
+                            <td>9</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>11</td>
+                            <td>4</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>8º</td>
+                            <td>Eng. Civil</td>
+                            <td>9</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>7</td>
+                            <td>2</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>9º</td>
+                            <td>Ed. Física 1</td>
+                            <td>8</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>10º</td>
+                            <td>Arquitetura</td>
+                            <td>7</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>6</td>
+                            <td>10</td>
+                            <td>-4</td>
+                        </tr>
+                        <tr>
+                            <td>11º</td>
+                            <td>Arquivologia</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <td>12º</td>
+                            <td>Eng. Elétrica</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <td>13º</td>
+                            <td>Administração</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>12</td>
+                            <td>-8</td>
+                        </tr>
+                        <tr>
+                            <td>14º</td>
+                            <td>Biblioteconomia</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>16</td>
+                            <td>-13</td>
+                        </tr>
+                        <tr>
+                            <td>15º</td>
+                            <td>Música</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>16</td>
+                            <td>-11</td>
+                        </tr>
+                        <tr>
+                            <td>16º</td>
+                            <td>Eng. Produção</td>
+                            <td>2</td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>14</td>
+                            <td>-9</td>
+                        </tr>
+                        <tr>
+                            <td class="ultimos">17º</td>
+                            <td class="ultimos">Dança</td>
+                            <td class="ultimos">1</td>
+                            <td class="ultimos">5</td>
+                            <td class="ultimos">0</td>
+                            <td class="ultimos">1</td>
+                            <td class="ultimos">4</td>
+                            <td class="ultimos">4</td>
+                            <td class="ultimos">13</td>
+                            <td class="ultimos">-9</td>
+                        </tr>
+                        <tr>
+                            <td class="ultimos">18º</td>
+                            <td class="ultimos">Economia</td>
+                            <td class="ultimos">0</td>
+                            <td class="ultimos">5</td>
+                            <td class="ultimos">0</td>
+                            <td class="ultimos">0</td>
+                            <td class="ultimos">5</td>
+                            <td class="ultimos">0</td>
+                            <td class="ultimos">16</td>
+                            <td class="ultimos">-16</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </div>
+
+        <div id="corpo3">
+            <article id="principal">
+                <h1><u>Grupo 1</u></h1>
+                <table class="table">
+                    
+                    <thead>
+                        <tr>
+                            <th>Ps.</th>
+                            <th>EQUIPE</th>
+                            <th>Pts.</th>
+                            <th>J</th>
+                            <th>V</th>
+                            <th>E</th>
+                            <th>D</th>
+                            <th>GP</th>
+                            <th>GC</th>
+                            <th>SG</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1º</td>
+                            <td>Eng. Mecânica</td>
+                            <td>11</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>14</td>
+                            <td>3</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>2º</td>
+                            <td>Química</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>9</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>3º</td>
+                            <td>Ed. Física 1</td>
+                            <td>8</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>4º</td>
+                            <td>Eng. Elétrica</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <td>5º</td>
+                            <td>Administração</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>12</td>
+                            <td>-8</td>
+                        </tr>
+                        <tr>
+                            <td class="ultimos">6º</td>
+                            <td class="ultimos">Dança</td>
+                            <td class="ultimos">1</td>
+                            <td class="ultimos">5</td>
+                            <td class="ultimos">0</td>
+                            <td class="ultimos">1</td>
+                            <td class="ultimos">4</td>
+                            <td class="ultimos">4</td>
+                            <td class="ultimos">13</td>
+                            <td class="ultimos">-9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </div>
+
+        <div id="corpo3">
+            <article id="principal">
+                <h1><u>Grupo 2</u></h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ps.</th>
+                            <th>EQUIPE</th>
+                            <th>Pts.</th>
+                            <th>J</th>
+                            <th>V</th>
+                            <th>E</th>
+                            <th>D</th>
+                            <th>GP</th>
+                            <th>GC</th>
+                            <th>SG</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1º</td>
+                            <td>Ed. Física 2</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>13</td>
+                            <td>4</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>2º</td>
+                            <td>Artes</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>12</td>
+                            <td>5</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>3º</td>
+                            <td>Geografia</td>
+                            <td>9</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>11</td>
+                            <td>4</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>4º</td>
+                            <td>Arquivologia</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <td>5º</td>
+                            <td>Biblioteconomia</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>3</td>
+                            <td>16</td>
+                            <td>-13</td>
+                        </tr>
+                        <tr>
+                            <td>6º</td>
+                            <td>Eng. Produção</td>
+                            <td>2</td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>14</td>
+                            <td>-9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </div>
+
+        <div id="corpo3">
+            <article id="principal">
+                <h1><u>Grupo 3</u></h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Ps.</th>
+                            <th>EQUIPE</th>
+                            <th>Pts.</th>
+                            <th>J</th>
+                            <th>V</th>
+                            <th>E</th>
+                            <th>D</th>
+                            <th>GP</th>
+                            <th>GC</th>
+                            <th>SG</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1º</td>
+                            <td>Veterinária 1</td>
+                            <td>11</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>18</td>
+                            <td>3</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>2º</td>
+                            <td>Veterinária 2</td>
+                            <td>11</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>14</td>
+                            <td>3</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>3º</td>
+                            <td>Eng. Civil</td>
+                            <td>9</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>7</td>
+                            <td>2</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>4º</td>
+                            <td>Arquitetura</td>
+                            <td>7</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>6</td>
+                            <td>10</td>
+                            <td>-4</td>
+                        </tr>
+                        <tr>
+                            <td>5º</td>
+                            <td>Música</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>16</td>
+                            <td>-11</td>
+                        </tr>
+                        <tr>
+                            <td class="ultimos">6º</td>
+                            <td class="ultimos">Economia</td>
+                            <td class="ultimos">0</td>
+                            <td class="ultimos">5</td>
+                            <td class="ultimos">0</td>
+                            <td class="ultimos">0</td>
+                            <td class="ultimos">5</td>
+                            <td class="ultimos">0</td>
+                            <td class="ultimos">16</td>
+                            <td class="ultimos">-16</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </div>
+
+</body>
+
+</html>

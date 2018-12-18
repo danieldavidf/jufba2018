@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Jogos Internos UFBA</title>
+    
+    <link rel="shortcut icon" href="imagens/logo.png">
+
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script type="text/javascript" src="javascript/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.cycle.all.js"></script>
+    <script type="text/javascript" src="javascript/funcoes.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("div#slides ul").cycle({
+                fx: 'none',
+                speed: 2000,
+                timeout: 4000,
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="slides">
+        <ul>
+            <li>
+                <img src="imagens/cabesse.jpg">
+            </li>
+            <li>
+                <img src="imagens/cabesse.jpg">
+            </li>
+        </ul>
+    </div>
+    <div id="interface">
+        <header id="cabecalho">
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html"> Inicio</a></li>
+                    <li><a href="classificacao.html"> Classificação</a></li>
+                    <li><a href="quartas.html">Jogos</a></li>
+                    <li><a href="times.html">Times</a></li>
+                    <li><a href="artilheiros.html"> Artilheiros</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="corpo1">
+            <article id="principal">
+                <h1><u>Jogos</u></h1>
+                <table style="float: right;">
+                    <tr>
+                        <td style="float: right;">
+                            <div class="dropdown">
+                                <button class="dropbtn">Eliminatórias</button>
+                                <div class="dropdown-content">
+                                    <a href="oitavas.html">Oitavas</a>
+                                    <a href="quartas.html">Quartas</a>
+                                    <a href="semifinais.html">Semifinais</a>
+                                    <a href="3lugar.html">3º lugar</a>
+                                    <a href="final.html">Final</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td style="float: right;">
+                            <div class="dropdown">
+                                <button class="dropbtn">Rodadas</button>
+                                <div class="dropdown-content">
+                                    <a href="jogos-rodada1.html">Rodada 1</a>
+                                    <a href="jogos-rodada2.html">Rodada 2</a>
+                                    <a href="jogos-rodada3.html">Rodada 3</a>
+                                    <a href="jogos-rodada4.html">Rodada 4</a>
+                                    <a href="jogos-rodada5.html">Rodada 5</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div id="corpo3">
+                    <h2><u>FINAL</u></h2>
+                    <table class="table-jogos">
+                        <caption>Sábado, 08/12/2018</caption>
+                        <thead>
+                            <tr>
+                                <th class="jhorario1st"><b>Horário</b></th>
+                                <th class="jequipe1st"><b>Equipe</b></th>
+                                <th class="jplacar1st" colspan="3"><b>Placar</b></th>
+                                <th class="jequipe1st"><b>Equipe</b></th>
+                                <th class="jsumula1st"><b>Súmula</b></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="jhorario">15:50</td>
+                                <td class="jequipe"></td>
+                                <td class="jplacar"> </td>
+                                <td class="jplacar">X</td>
+                                <td class="jplacar"> </td>
+                                <td class="jequipe"></td>
+                                <td class="jsumula">
+                                    <a href="" target="_blank"></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+
+</html>

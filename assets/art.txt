@@ -1,0 +1,141 @@
+GOLS
+6
+6
+5
+4
+4
+3
+3
+3
+3
+3
+3
+3
+3
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+NOME
+Kaique Magalhães
+Pedro Sampaio
+Tainan Bulhões
+Ariel Oliveira
+Caio Luís Guache
+Délcio Fernandes
+Jaimilson B. Vieira
+Luan Ferreira Brito
+Daniel Costa Porto
+Jairo dos S. Bacelar
+Josimar André
+William dos Santos
+Alexsandro Gomes
+Bento J. Barbosa
+Seco Braima Sede
+Matheus R. Oliveira
+João Paulo Brito
+Luís Simões
+Valde Cerqueira
+Natan de L. Lopes
+Ericson P. Souza
+Lucas H. A. Araújo
+Felipe Rangel
+Vitor Oliveira
+Jeferson da Paixão
+Leandro S.Souza
+Daniel Dourado
+Alanderson Divino
+José H. da S. Neto
+Felipe Cova
+Rodrigo Brito
+Rogério S. Santos
+João V. Rios Amaral
+Falade Damilare
+Luiz H.Oliveira
+Gustavo Figueiredo
+Ícaro Meireles
+João Victor Rios
+Júlio Alves Portela
+Marcos V.T. Neves
+Ricco C. de Mello
+Iuri Campos
+Tiago A.Sobreira
+Bernardo Salles
+Edson M. Barreto
+Gustavo Ross
+EQUIPE
+Arquivologia
+Eng. Mecânica
+Artes
+Med. Veterinária 2
+Med. Veterinária 1
+Arquitetura
+Ed. Física 2
+Ed. Física 2
+Eng. Elétrica
+Geografia
+Geografia
+Med. Veterinária 1
+Med. Veterinária 2
+Administração
+Arquitetura
+Arquivologia
+Arquivologia
+Ed. Física 1
+Ed. Física 1
+Ed. Física 2
+Eng. Civil
+Eng. Elétrica
+Eng. Mecânica
+Geografia
+Med. Veterinária 1
+Med. Veterinária 2
+Med. Veterinária 2
+Música
+Química
+Química
+Administração
+Administração
+Amaral
+Arquitetura
+Arquivologia
+Artes
+Artes
+Artes
+Artes
+Artes
+Artes
+Biblioteconomia
+Biblioteconomia
+Dança
+Dança
+Dança
